@@ -1,63 +1,83 @@
-body
-{
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+/* General Styles */
+body {
     text-align: center;
     background-color: #8ccdcc;
-    font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    font-family: "Open Sans", Arial, sans-serif; /* Updated font family */
     font-size: 18px;
     padding-top: 5px;    
     padding-bottom: 10px;    
-    margin:0;
-}
-
-
-
-header
-{
-    text-align: center;
-    background-color: #268f8d;
-    font-family: "Times New Roman",CenturyGothic,AppleGothic,sans-serif;
-    color: #FFF;
     margin: 0;
-    padding-top: 5px;    
-    padding-bottom: 10px;    
-
 }
 
-footer
-{
-    text-align: center;
+header, footer {
     background-color: #268f8d;
-    font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
     color: #FFF;
+    padding: 10px 0;
     margin: 0;
-    padding-top: 1px;    
-    padding-bottom: 10px;
+    font-family: "Roboto", Arial, sans-serif; /* Updated font family */
+}
+
+header h1, footer p {
+    margin: 0;
+}
+
+footer a {
     color: #FFF;
-
+    text-decoration: none;
 }
 
-
-/*
-img
-{
-
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 420px;
-    padding-right: 480px;
-
-}
-*/
-
-
-.container
-{
+.container {
     margin: 0 auto;
+    max-width: 800px; /* Limit container width for better readability */
+    text-align: left; /* Align text to the left within the container */
 }
 
+/* Main Image */
+.main-image {
+    width: 100%; /* Responsive image width */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 650px; /* Limit height specific to recipe images */
+    margin: 20px 0; /* Add margin for spacing */
+}
 
-/*
+/* List Styles */
+ul, ol {
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    list-style-position: inside; /* List markers inside padding area */
+    margin: 10px 0; /* Add some vertical margin for spacing */
+}
 
-section{
-    background-color: #6bcff6;
-} */
+ul {
+    list-style-type: disc; /* Bullet points for unordered list */
+}
+
+ol {
+    list-style-type: decimal; /* Numbers for ordered list */
+}
+
+/* List Item Styles */
+li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+/* Heading Styles */
+h2 {
+    color: #268f8d; /* Add color to section headings */
+    margin-top: 20px; /* Space above headings */
+    margin-bottom: 10px; /* Space below headings */
+    font-family: "Roboto", Arial, sans-serif; /* Updated font family for headings */
+}
+
+/* Link Styles */
+a {
+    color: #268f8d;
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover for better accessibility */
+}
