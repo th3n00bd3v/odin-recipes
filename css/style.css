@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
 
 /* General Styles */
+
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
 body {
     text-align: center;
     background-color: #8ccdcc;
@@ -31,17 +37,17 @@ footer a {
 
 .container {
     margin: 0 auto;
-    max-width: 800px; /* Limit container width for better readability */
-    text-align: left; /* Align text to the left within the container */
+    max-width: 800px; 
+    text-align: left; 
 }
 
 /* Main Image */
 .main-image {
-    width: 100%; /* Responsive image width */
-    height: auto; /* Maintain aspect ratio */
-    max-height: 650px; /* Limit height specific to recipe images */
-    margin: 20px 0; /* Add margin for spacing */
-}
+    width: 100%; 
+    height: auto;
+    max-height: 650px;
+    margin: 20px 0;
+
 
 /* List Styles */
 ul, ol {
@@ -79,5 +85,5 @@ a {
 }
 
 a:hover {
-    text-decoration: underline; /* Add underline on hover for better accessibility */
+    text-decoration: underline;
 }
