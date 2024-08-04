@@ -9,8 +9,6 @@
 }
 
 
-
-
 body {
     text-align: center;
     background-color: #8ccdcc;
@@ -50,7 +48,7 @@ footer a {
     height: auto;
     max-height: 650px;
     margin: 20px 0;
-
+}
 
 /* List Styles */
 ul, ol {
